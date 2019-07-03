@@ -6,7 +6,7 @@
   <link href="https://zyy1104.github.io/atom.xml" rel="self"/>
   
   <link href="https://zyy1104.github.io/"/>
-  <updated>2019-07-03T09:22:37.590Z</updated>
+  <updated>2019-07-03T13:30:31.497Z</updated>
   <id>https://zyy1104.github.io/</id>
   
   <author>
@@ -17,78 +17,24 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>分类测试文章标题</title>
-    <link href="https://zyy1104.github.io/2019/07/03/%E5%85%AB%E5%A4%A7%E6%8E%92%E5%BA%8F/"/>
-    <id>https://zyy1104.github.io/2019/07/03/八大排序/</id>
-    <published>2019-07-03T09:22:06.000Z</published>
-    <updated>2019-07-03T09:22:37.590Z</updated>
+    <title>测试文章1</title>
+    <link href="https://zyy1104.github.io/2019/07/03/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A01/"/>
+    <id>https://zyy1104.github.io/2019/07/03/测试文章1/</id>
+    <published>2019-07-03T13:22:20.000Z</published>
+    <updated>2019-07-03T13:30:31.497Z</updated>
     
     <summary type="html">
     
-    </summary>
-    
-      <category term="测试" scheme="https://zyy1104.github.io/categories/%E6%B5%8B%E8%AF%95/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>MongoDB(1)</title>
-    <link href="https://zyy1104.github.io/2019/07/03/MongoDB-1/"/>
-    <id>https://zyy1104.github.io/2019/07/03/MongoDB-1/</id>
-    <published>2019-07-03T09:07:10.000Z</published>
-    <updated>2019-07-03T09:26:25.517Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;MongoDB是一个基于分布式文件存储的数据库。由C++语言编写。旨在为WEB应用提供可扩展的高性能数据存储解决方案。&lt;br&gt;是世界上目前用的
+      MongoDB是一个基于分布式文件存储的数据库。由C++语言编写。旨在为WEB应用提供可扩展的高性能数据存储解决方案。是世界上目前用的最广泛的nosql数据库
     
     </summary>
     
+      <category term="nodejs" scheme="https://zyy1104.github.io/categories/nodejs/"/>
     
-  </entry>
-  
-  <entry>
-    <title>my-first-blog</title>
-    <link href="https://zyy1104.github.io/2019/07/03/my-first-blog/"/>
-    <id>https://zyy1104.github.io/2019/07/03/my-first-blog/</id>
-    <published>2019-07-03T04:09:25.000Z</published>
-    <updated>2019-07-03T06:01:14.858Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h2 id=&quot;测试&quot;&gt;&lt;a href=&quot;#测试&quot; class=&quot;headerlink&quot; title=&quot;测试&quot;&gt;&lt;/a&gt;测试&lt;/h2&gt;&lt;h3 id=&quot;测试-1&quot;&gt;&lt;a href=&quot;#测试-1&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
+      <category term="mongoDB" scheme="https://zyy1104.github.io/categories/nodejs/mongoDB/"/>
     
     
-  </entry>
-  
-  <entry>
-    <title>my-first-blog</title>
-    <link href="https://zyy1104.github.io/2019/07/03/my-second-blog/"/>
-    <id>https://zyy1104.github.io/2019/07/03/my-second-blog/</id>
-    <published>2019-07-03T04:09:25.000Z</published>
-    <updated>2019-07-03T06:07:10.474Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;成功了嘛&quot;&gt;&lt;a href=&quot;#成功了嘛&quot; class=&quot;headerlink&quot; title=&quot;成功了嘛&quot;&gt;&lt;/a&gt;成功了嘛&lt;/h1&gt;&lt;h2 id=&quot;emm&quot;&gt;&lt;a href=&quot;#emm&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
+      <category term="mongoDB" scheme="https://zyy1104.github.io/tags/mongoDB/"/>
     
   </entry>
   
