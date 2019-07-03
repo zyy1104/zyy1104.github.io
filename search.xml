@@ -7,9 +7,11 @@
       <categories>
         <category>nodejs</category>
         <category>mongoDB</category>
+        <category>数据库</category>
       </categories>
       <tags>
-        <tag>mongoDB</tag>
+        <tag>nodejs</tag>
+        <tag>mongoDB，数据库</tag>
       </tags>
   </entry>
 </search>
