@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[测试文章1]]></title>
+    <title><![CDATA[测试文章]]></title>
     <url>https%3A%2F%2Fzyy1104.github.io%2F2019%2F07%2F03%2F%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A01%2F</url>
     <content type="text"><![CDATA[noSql 翻译过来 not only sql 不仅仅是sql 他就是一个非关系型数据库它的特点:高性能、易部署、易使用，存储数据非常方便。 优点 1/面向文档储存的数据库（BSON格式存储）2/具有丰富的查询指令3/支持索引4/具有分片系统5/无模式 缺点 1/占用空间非常大2/不支持事务3/目前已经不维护32位的系统的了 mongo的基础指令 show dbs 获取你当前所有的数据库use dataBase_name 创建数据库(没有－创建／存在－使用)db 指查询你当前的数据库db.stats() 查询你当前数据库的状态db.dropDatabase() 删除你当前的数据库db.help() 查询帮助db.version() 获取你当前数据库的版本db.database_name.help() 查询任意数据库的帮助db.collection_name.find() 查询你当前集合内的信息]]></content>
       <categories>
-        <category>nodejs</category>
-        <category>mongoDB</category>
-        <category>数据库</category>
+        <category>测试</category>
       </categories>
       <tags>
         <tag>nodejs</tag>

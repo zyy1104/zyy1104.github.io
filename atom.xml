@@ -6,7 +6,7 @@
   <link href="https://zyy1104.github.io/atom.xml" rel="self"/>
   
   <link href="https://zyy1104.github.io/"/>
-  <updated>2019-07-03T14:02:33.966Z</updated>
+  <updated>2019-07-03T14:21:34.330Z</updated>
   <id>https://zyy1104.github.io/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>测试文章1</title>
+    <title>测试文章</title>
     <link href="https://zyy1104.github.io/2019/07/03/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A01/"/>
     <id>https://zyy1104.github.io/2019/07/03/测试文章1/</id>
     <published>2019-07-03T13:22:20.000Z</published>
-    <updated>2019-07-03T14:02:33.966Z</updated>
+    <updated>2019-07-03T14:21:34.330Z</updated>
     
     <summary type="html">
     
@@ -29,11 +29,7 @@
     
     </summary>
     
-      <category term="nodejs" scheme="https://zyy1104.github.io/categories/nodejs/"/>
-    
-      <category term="mongoDB" scheme="https://zyy1104.github.io/categories/nodejs/mongoDB/"/>
-    
-      <category term="数据库" scheme="https://zyy1104.github.io/categories/nodejs/mongoDB/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+      <category term="测试" scheme="https://zyy1104.github.io/categories/%E6%B5%8B%E8%AF%95/"/>
     
     
       <category term="nodejs" scheme="https://zyy1104.github.io/tags/nodejs/"/>
