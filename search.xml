@@ -1,30 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[JavaScript字符串方法]]></title>
-    <url>https%3A%2F%2Fzyy1104.github.io%2F2019%2F07%2F10%2FJavaScript%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%96%B9%E6%B3%95%2F</url>
-    <content type="text"><![CDATA[23个字符串方法：charAt、indexOf、lastIndexOf、trim、charCodeAt、fromCodeAt、silce、substring、substr、toLowerCase、toUpperCase、replace、split、concat、match、repeat、search、startsWith、toLocaleLowerCase、toLocaleUpperCase、includes、valueOf、toString charAt：返回指定位置的字符。 indexOf：返回某个字符在字符串中的位置；indexOf方法用于确定一个字符串在另一个字符串中第一次出现的位置，返回结果是匹配开始的位置。如果返回-1，就表示不匹配；indexOf方法还可以接受第二个参数，表示从该位置开始向后匹配。 lastIndexOf：方法的用法跟indexOf方法一致，主要的区别是lastIndexOf从尾部开始匹配，indexOf则是从头部开始匹配；lastIndexOf的第二个参数表示从该位置起向前匹配。 trim：方法用于去除字符串两端的空白，返回一个新字符串，不改变原字符串。 charCodeAt：ASCII码。 fromCodeAt：ASCII码。 slice：方法用于从原字符串取出子字符串并返回，不改变原字符串。它的第一个参数是子字符串的开始位置，第二个参数是子字符串的结束位置（不含该位置）。 substring：方法用于从原字符串取出子字符串并返回，不改变原字符串，跟slice方法很相像。它的第一个参数表示子字符串的开始位置，第二个位置表示结束位置（返回结果不含该位置）。区别：如果第二个参数大于第一个参数，substring方法会自动更换两个参数的位置。 substr：方法用于从原字符串取出子字符串并返回，不改变原字符串，跟slice和substring方法的作用相同。substr方法的第一个参数是子字符串的开始位置（从0开始计算），第二个参数是子字符串的长度。如果省略第二个参数，则表示子字符串一直到原字符串的结束。如果第一个参数是负数，表示倒数计算的字符位置。如果第二个参数是负数，将被自动转为0，因此会返回空字符串。 toLowerCase：方法用于将一个字符串全部转为小写。 toUpperCase：全部转为大写。它们都返回一个新字符串，不改变原字符串。 replace：用于替换匹配的子字符串，一般情况下只替换第一个匹配（除非使用带有g修饰符的正则表达式）。 12&apos;aaa&apos;.replace(&apos;a&apos;, &apos;b&apos;) // &quot;baa&quot;&apos;aaa&apos;.replace(/a/g, &apos;b&apos;) // &quot;bbb&quot; split：按照给定规则分割字符串，返回一个由分割出来的子字符串组成的数组。 1&apos;a|b|c&apos;.split(&apos;|&apos;) // [&quot;a&quot;, &quot;b&quot;, &quot;c&quot;] 如果分割规则为空字符串，则返回数组的成员是原字符串的每一个字符。12&apos;a|b|c&apos;.split(&apos;&apos;) // [&quot;a&quot;, &quot;|&quot;, &quot;b&quot;, &quot;|&quot;, &quot;c&quot;] //可以将字符串转换为数组 菜鸟教程扩展 concat：连接两个或更多字符串，并返回新的字符串。 match：查找找到一个或多个正则表达式的匹配。 repeat：复制字符串指定次数，并将它们连接在一起返回。 search：查找与正则表达式相匹配的值。 startsWith：查看字符串是否以指定的子字符串开头。 toLocaleLowerCase：把字符串转换为小写。 toLocaleUpperCase：根据本地主机的语言环境把字符串转换为大写。 includes：查找字符串中是否包含指定的子字符串。 valueOf：返回某个字符串对象的原始值。 toString：返回一个字符串。]]></content>
-      <categories>
-        <category>JavaScript</category>
-      </categories>
-      <tags>
-        <tag>字符串</tag>
-        <tag>JavaScript</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[JavaScript数组方法]]></title>
-    <url>https%3A%2F%2Fzyy1104.github.io%2F2019%2F07%2F10%2FJavaScript%E6%95%B0%E7%BB%84%E6%96%B9%E6%B3%95%2F</url>
-    <content type="text"><![CDATA[30个数组方法：push、pop、unshift、shift、slice、splice、reverse、sort、join、concat、indexOf、forEach、map、filter、some、every、reduce、copyWithin、entries、fill、find、findIndex、from、includes、isArray、keys、reduceRight、toString、valueOf push：可以接受一个或者多个参数，将参数追加到数组的尾部，返回添加后的数组的长度，原数组会发生改变。 pop：从数组尾部删除一个元素，返回这个被删除的元素，原数组发生改变。 unshift：可以接受一个或者多个参数，将参数放到数组的头部，返回添加后的数组的长度，原数组会发生改变。 shift：从数组头部删除一个元素，返回这个被删除的元素，原数组发生改变。 slice：截取类 如果不传参数，会返回原数组；如果一个参数，从该参数表示的索引开始截取，直至数组结束，返回这个截取数组，原数组不变；两个参数，从第一个参数对应的索引开始截取，到第二个参数对应的索引结束，但不包括第二个参数对应的索引上值，原数组不改变；最多接受两个参数。 splice：截取类 没有参数，返回空数组，原数组不变；一个参数，从该参数表示的索引位开始截取，直至数组结束，返回截取的 数组，原数组改变；两个参数，第一个参数表示开始截取的索引位，第二个参数表示截取的长度，返回截取的 数组，原数组改变；三个或者更多参数，第三个及以后的参数表示要从截取位插入的值。 reverse：不接受参数，数组翻转。 sort：排序。 1234arr.sort(function(a,b)&#123; return a-b; //从小到大排序 return b-a; //从大到小排序 &#125;); join：参数来拼接；分隔符。 concat：将参数放入原数组后返回，原数组本身不变，如果参数是数组，将值提出来。 ES5新增数组操作方法： indexOf：返回item在数组中的索引位，如果没有返回-1；通常用来判断数组中有没有某个元素。 forEach：forEach方法与map方法很相似，也是对数组的所有成员依次执行参数函数。但是，forEach方法不返回值，只用来操作数据。这就是说，如果数组遍历的目的是为了得到返回值，那么使用map方法，否则使用forEach方法；forEach的用法与map方法一致，参数是一个函数，该函数同样接受三个参数：当前值、当前位置、整个数组 map：将数组的所有成员依次传入参数函数，然后把每一次的执行结果组成一个新数组返回；map方法接受一个函数作为参数。该函数调用时，map方法向它传入三个参数：当前成员、当前位置和数组本身。 123[1,2,3].map(function(elem,index,arr)&#123; return elem*index;&#125;) //[0,2,6] filter：用于过滤数组成员，满足条件的成员组成一个新数组返回；它的参数是一个函数，所有数组成员依次执行该函数，返回结果为true的成员组成一个新数组返回。该方法不会改变原数组；可以接受三个参数：当前成员，当前位置和整个数组。 some：有一个满足条件，返回true。 every：所有满足条件，返回true。 reduce：依次处理数组的每个成员，最终累计为一个值。reduce是从左到右处理（从第一个成员到最后一个成员）。参数是一个函数,该函数接受以下两个参数：1累积变量，默认为数组的第一个成员；2当前变量，默认为数组的第二个成员。 菜鸟教程扩展 copyWithin：从数组的指定位置拷贝元素到数组的另一个指定位置中。 entries：返回数组的可迭代对象。 fill：使用一个固定值来填充对象。 find：返回符合传入测试（函数）的数组元素。 findIndex：返回符合传入测试（函数）条件的数组元素索引。 from：通过给定的对象中创建一个数组。 includes：判断一个数组是否包含一个指定的值。 isArray：判断对象是否为数组。 keys：返回数组的可迭代对象，包含原始数组的键(key)。 reduceRight：返回数组的可迭代对象，包含原始数组的键(key)。 toString：返回数组的可迭代对象，包含原始数组的键(key)。 valueOf：返回数组对象的原始值。 lastIndexOf：搜索数组中的元素，并返回它最后出现的位置。]]></content>
-      <categories>
-        <category>JavaScript</category>
-      </categories>
-      <tags>
-        <tag>字符串</tag>
-        <tag>JavaScript</tag>
-      </tags>
-  </entry>
-  <entry>
     <title><![CDATA[测试文章]]></title>
     <url>https%3A%2F%2Fzyy1104.github.io%2F2019%2F07%2F03%2F%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A01%2F</url>
     <content type="text"><![CDATA[noSql 翻译过来 not only sql 不仅仅是sql 他就是一个非关系型数据库它的特点:高性能、易部署、易使用，存储数据非常方便。 优点 1/面向文档储存的数据库（BSON格式存储）2/具有丰富的查询指令3/支持索引4/具有分片系统5/无模式 缺点 1/占用空间非常大2/不支持事务3/目前已经不维护32位的系统的了 mongo的基础指令 show dbs 获取你当前所有的数据库use dataBase_name 创建数据库(没有－创建／存在－使用)db 指查询你当前的数据库db.stats() 查询你当前数据库的状态db.dropDatabase() 删除你当前的数据库db.help() 查询帮助db.version() 获取你当前数据库的版本db.database_name.help() 查询任意数据库的帮助db.collection_name.find() 查询你当前集合内的信息]]></content>
