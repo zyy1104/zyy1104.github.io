@@ -6,7 +6,7 @@
   <link href="https://zyy1104.github.io/atom.xml" rel="self"/>
   
   <link href="https://zyy1104.github.io/"/>
-  <updated>2019-07-10T03:32:39.867Z</updated>
+  <updated>2019-07-10T03:37:13.588Z</updated>
   <id>https://zyy1104.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://zyy1104.github.io/2019/07/10/JavaScript%E6%95%B0%E7%BB%84%E6%96%B9%E6%B3%95/"/>
     <id>https://zyy1104.github.io/2019/07/10/JavaScript数组方法/</id>
     <published>2019-07-10T03:23:57.000Z</published>
-    <updated>2019-07-10T03:32:39.867Z</updated>
+    <updated>2019-07-10T03:37:13.588Z</updated>
     
     <summary type="html">
     
@@ -29,12 +29,18 @@
       
         
         
-          &lt;p&gt;&lt;img src=&quot;https://zyy1104.github.io/zyy1104.github/3.jpg&quot; alt=&quot;插图&quot;&gt;&amp;lt;
+          &lt;p&gt;&lt;strong&gt;&lt;em&gt;30个数组方法：&lt;/em&gt;&lt;/strong&gt;&lt;br&gt;push、pop、unshift、shift、slice、splice、reverse、sort、join、concat、indexOf、forEach、map、filter、some、every、
         
       
     
     </summary>
     
+      <category term="JavaScript" scheme="https://zyy1104.github.io/categories/JavaScript/"/>
+    
+    
+      <category term="数组" scheme="https://zyy1104.github.io/tags/%E6%95%B0%E7%BB%84/"/>
+    
+      <category term="JavaScript" scheme="https://zyy1104.github.io/tags/JavaScript/"/>
     
   </entry>
   
