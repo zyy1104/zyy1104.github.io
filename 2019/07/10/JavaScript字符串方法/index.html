@@ -66,7 +66,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT">
+  <meta name="keywords" content="JavaScript,字符串,">
 
 
 
@@ -79,16 +79,18 @@
 
 
 
-<meta name="description" content="为之则易，不为则难">
-<meta property="og:type" content="website">
-<meta property="og:title" content="菜小粥">
-<meta property="og:url" content="https://zyy1104.github.io/categories/测试/index.html">
+<meta name="description" content="23个字符串方法：charAt、indexOf、lastIndexOf、trim、charCodeAt、fromCodeAt、silce、substring、substr、toLowerCase、toUpperCase、replace、split、concat、match、repeat、search、startsWith、toLocaleLowerCase、toLocaleUpperCase、in">
+<meta name="keywords" content="JavaScript,字符串">
+<meta property="og:type" content="article">
+<meta property="og:title" content="JavaScript字符串方法">
+<meta property="og:url" content="https://zyy1104.github.io/2019/07/10/JavaScript字符串方法/index.html">
 <meta property="og:site_name" content="菜小粥">
-<meta property="og:description" content="为之则易，不为则难">
+<meta property="og:description" content="23个字符串方法：charAt、indexOf、lastIndexOf、trim、charCodeAt、fromCodeAt、silce、substring、substr、toLowerCase、toUpperCase、replace、split、concat、match、repeat、search、startsWith、toLocaleLowerCase、toLocaleUpperCase、in">
 <meta property="og:locale" content="zh-Hans">
+<meta property="og:updated_time" content="2019-07-10T03:04:37.712Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="菜小粥">
-<meta name="twitter:description" content="为之则易，不为则难">
+<meta name="twitter:title" content="JavaScript字符串方法">
+<meta name="twitter:description" content="23个字符串方法：charAt、indexOf、lastIndexOf、trim、charCodeAt、fromCodeAt、silce、substring、substr、toLowerCase、toUpperCase、replace、split、concat、match、repeat、search、startsWith、toLocaleLowerCase、toLocaleUpperCase、in">
 
 
 
@@ -118,13 +120,13 @@
 
 
 
-  <link rel="canonical" href="https://zyy1104.github.io/categories/测试/">
+  <link rel="canonical" href="https://zyy1104.github.io/2019/07/10/JavaScript字符串方法/">
 
 
 
 
 
-  <title>分类: 测试 | 菜小粥</title>
+  <title>JavaScript字符串方法 | 菜小粥</title>
   
 
 
@@ -153,7 +155,7 @@
     
   
 
-  <div class="container sidebar-position-left ">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -299,53 +301,269 @@
           <div id="content" class="content">
             
 
-  
-  
-  
-  <div class="post-block category">
+  <div id="posts" class="posts-expand">
+    
 
-    <div id="posts" class="posts-collapse">
-      <div class="collection-title">
-        <h1>测试<small>分类</small>
-        </h1>
-      </div>
+  
 
-      
-        
+  
+  
+  
 
   <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://zyy1104.github.iohttps:/zyy1104.github.io/2019/07/10/JavaScript字符串方法/">
 
-      <h2 class="post-title">
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="菜小粥">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="https:/zyy1104.github.io/images/prisoner.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="菜小粥">
+    </span>
+
+    
+      <header class="post-header">
+
         
-            <a class="post-title-link" href="https:/zyy1104.github.io/2019/07/03/测试文章1/" itemprop="url">
-              
-                <span itemprop="name">测试文章</span>
-              
-            </a>
         
-      </h2>
+          <h1 class="post-title" itemprop="name headline">JavaScript字符串方法</h1>
+        
 
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated" datetime="2019-07-03T21:22:20+08:00" content="2019-07-03">
-          07-03
-        </time>
-      </div>
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-07-10T10:59:55+08:00">
+                2019-07-10
+              </time>
+            
 
-    </header>
-  </article>
+            
 
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="https:/zyy1104.github.io/categories/JavaScript/" itemprop="url" rel="index">
+                    <span itemprop="name">JavaScript</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+            <span class="post-meta-divider">|</span>
+            <span id="busuanzi_value_page_pv"></span>次阅读
+          
+
+          
+            <div class="post-wordcount">
+              
+                
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">字数统计&#58;</span>
+                
+                <span title="字数统计">
+                  921 字
+                </span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
+                
+                <span title="阅读时长">
+                  3 分钟
+                </span>
+              
+            </div>
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p><strong><em>23个字符串方法：</em></strong><br>charAt、indexOf、lastIndexOf、trim、charCodeAt、fromCodeAt、silce、substring、substr、toLowerCase、toUpperCase、replace、split、concat、match、repeat、search、startsWith、toLocaleLowerCase、toLocaleUpperCase、includes、valueOf、toString</p>
+<ol>
+<li><strong>charAt</strong>：返回指定位置的字符。</li>
+<li><strong>indexOf</strong>：返回某个字符在字符串中的位置；indexOf方法用于确定一个字符串在另一个字符串中第一次出现的位置，返回结果是匹配开始的位置。如果返回-1，就表示不匹配；indexOf方法还可以接受第二个参数，表示从该位置开始向后匹配。</li>
+<li><strong>lastIndexOf</strong>：方法的用法跟indexOf方法一致，主要的区别是lastIndexOf从尾部开始匹配，indexOf则是从头部开始匹配；lastIndexOf的第二个参数表示从该位置起向前匹配。</li>
+<li><strong>trim</strong>：方法用于去除字符串两端的空白，返回一个新字符串，不改变原字符串。</li>
+<li><strong>charCodeAt</strong>：ASCII码。</li>
+<li><strong>fromCodeAt</strong>：ASCII码。</li>
+<li><strong>slice</strong>：方法用于从原字符串取出子字符串并返回，不改变原字符串。它的第一个参数是子字符串的开始位置，第二个参数是子字符串的结束位置（不含该位置）。</li>
+<li><strong>substring</strong>：方法用于从原字符串取出子字符串并返回，不改变原字符串，跟slice方法很相像。它的第一个参数表示子字符串的开始位置，第二个位置表示结束位置（返回结果不含该位置）。区别：如果第二个参数大于第一个参数，substring方法会自动更换两个参数的位置。</li>
+<li><strong>substr</strong>：方法用于从原字符串取出子字符串并返回，不改变原字符串，跟slice和substring方法的作用相同。substr方法的第一个参数是子字符串的开始位置（从0开始计算），第二个参数是子字符串的长度。如果省略第二个参数，则表示子字符串一直到原字符串的结束。如果第一个参数是负数，表示倒数计算的字符位置。如果第二个参数是负数，将被自动转为0，因此会返回空字符串。</li>
+<li><strong>toLowerCase</strong>：方法用于将一个字符串全部转为小写。</li>
+<li><strong>toUpperCase</strong>：全部转为大写。它们都返回一个新字符串，不改变原字符串。</li>
+<li><p><strong>replace</strong>：用于替换匹配的子字符串，一般情况下只替换第一个匹配（除非使用带有g修饰符的正则表达式）。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&apos;aaa&apos;.replace(&apos;a&apos;, &apos;b&apos;) // &quot;baa&quot;</span><br><span class="line">&apos;aaa&apos;.replace(/a/g, &apos;b&apos;) // &quot;bbb&quot;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p><strong>split</strong>：按照给定规则分割字符串，返回一个由分割出来的子字符串组成的数组。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&apos;a|b|c&apos;.split(&apos;|&apos;) // [&quot;a&quot;, &quot;b&quot;, &quot;c&quot;]</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<p>如果分割规则为空字符串，则返回数组的成员是原字符串的每一个字符。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&apos;a|b|c&apos;.split(&apos;&apos;) // [&quot;a&quot;, &quot;|&quot;, &quot;b&quot;, &quot;|&quot;, &quot;c&quot;] </span><br><span class="line"> //可以将字符串转换为数组</span><br></pre></td></tr></table></figure></p>
+<p><a href="https://www.runoob.com/jsref/jsref-obj-string.html" target="_blank" rel="noopener">菜鸟教程</a>扩展</p>
+<ol start="14">
+<li><strong>concat</strong>：连接两个或更多字符串，并返回新的字符串。</li>
+<li><strong>match</strong>：查找找到一个或多个正则表达式的匹配。</li>
+<li><strong>repeat</strong>：复制字符串指定次数，并将它们连接在一起返回。</li>
+<li><strong>search</strong>：查找与正则表达式相匹配的值。</li>
+<li><strong>startsWith</strong>：查看字符串是否以指定的子字符串开头。</li>
+<li><strong>toLocaleLowerCase</strong>：把字符串转换为小写。</li>
+<li><strong>toLocaleUpperCase</strong>：根据本地主机的语言环境把字符串转换为大写。</li>
+<li><strong>includes</strong>：查找字符串中是否包含指定的子字符串。</li>
+<li><strong>valueOf</strong>：返回某个字符串对象的原始值。</li>
+<li><strong>toString</strong>：返回一个字符串。</li>
+</ol>
 
       
     </div>
+    
+    
+    
 
+    
+
+    
+      <div>
+        <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+  <div>感谢鼓励~(๑>؂<๑)<br>
+  <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+    <span>打赏</span>
+  </button>
+  <div id="QR" style="display: none;">
+
+    
+      <div id="wechat" style="display: inline-block">
+        <img id="wechat_qr" src="/images/wx.jpg" alt="菜小粥 微信支付">
+        <p>微信支付</p>
+      </div>
+    
+
+    
+      <div id="alipay" style="display: inline-block">
+        <img id="alipay_qr" src="/images/zf.jpg" alt="菜小粥 支付宝">
+        <p>支付宝</p>
+      </div>
+    
+
+    
+
+  </div>
+</๑)<br></div>
+
+      </div>
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="https:/zyy1104.github.io/tags/JavaScript/" rel="tag"># JavaScript</a>
+          
+            <a href="https:/zyy1104.github.io/tags/字符串/" rel="tag"># 字符串</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="https:/zyy1104.github.io/2019/07/10/JavaScript数组方法/" rel="next" title="JavaScript数组方法">
+                <i class="fa fa-chevron-left"></i> JavaScript数组方法
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
   </div>
   
   
   
+  </div></article>
 
-  
 
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -353,6 +571,10 @@
 
 
           
+
+  
+
+
 
         </div>
         
@@ -622,6 +844,10 @@
 
 
   
+  <script type="text/javascript" src="https:/zyy1104.github.io/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="https:/zyy1104.github.io/js/src/post-details.js?v=5.1.4"></script>
+
+
 
   
 
