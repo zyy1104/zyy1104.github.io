@@ -66,7 +66,7 @@
 
 
 
-  <meta name="keywords" content="nodejs,mongoDB,数据库,">
+  <meta name="keywords" content="数组,">
 
 
 
@@ -79,18 +79,18 @@
 
 
 
-<meta name="description" content="noSql 翻译过来 not only sql 不仅仅是sql 他就是一个非关系型数据库它的特点:高性能、易部署、易使用，存储数据非常方便。  优点  1/面向文档储存的数据库（BSON格式存储）2/具有丰富的查询指令3/支持索引4/具有分片系统5/无模式    缺点  1/占用空间非常大2/不支持事务3/目前已经不维护32位的系统的了    mongo的基础指令  show dbs 获取你当前所">
-<meta name="keywords" content="nodejs,mongoDB,数据库">
+<meta name="description" content="ES3~ES7数组方法学习 push()  可以接受一个或者多个参数，将参数追加到数组的尾部，返回添加后的数组的长度，原数组会发生改变。  pop()  从数组尾部删除一个元素，返回这个被删除的元素，原数组发生改变。  unshift()  可以接受一个或者多个参数，将参数放到数组的头部，返回添加后的数组的长度，原数组会发生改变。  shift()  从数组头部删除一个元素，返回这个被删除的元素，">
+<meta name="keywords" content="数组">
 <meta property="og:type" content="article">
-<meta property="og:title" content="测试文章">
-<meta property="og:url" content="https://zyy1104.github.io/2019/07/03/测试文章1/index.html">
+<meta property="og:title" content="ES3~ES7数组方法">
+<meta property="og:url" content="https://zyy1104.github.io/2019/07/30/ES3-ES7数组方法/index.html">
 <meta property="og:site_name" content="菜小粥">
-<meta property="og:description" content="noSql 翻译过来 not only sql 不仅仅是sql 他就是一个非关系型数据库它的特点:高性能、易部署、易使用，存储数据非常方便。  优点  1/面向文档储存的数据库（BSON格式存储）2/具有丰富的查询指令3/支持索引4/具有分片系统5/无模式    缺点  1/占用空间非常大2/不支持事务3/目前已经不维护32位的系统的了    mongo的基础指令  show dbs 获取你当前所">
+<meta property="og:description" content="ES3~ES7数组方法学习 push()  可以接受一个或者多个参数，将参数追加到数组的尾部，返回添加后的数组的长度，原数组会发生改变。  pop()  从数组尾部删除一个元素，返回这个被删除的元素，原数组发生改变。  unshift()  可以接受一个或者多个参数，将参数放到数组的头部，返回添加后的数组的长度，原数组会发生改变。  shift()  从数组头部删除一个元素，返回这个被删除的元素，">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-07-10T03:54:42.524Z">
+<meta property="og:updated_time" content="2019-07-30T00:39:14.838Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="测试文章">
-<meta name="twitter:description" content="noSql 翻译过来 not only sql 不仅仅是sql 他就是一个非关系型数据库它的特点:高性能、易部署、易使用，存储数据非常方便。  优点  1/面向文档储存的数据库（BSON格式存储）2/具有丰富的查询指令3/支持索引4/具有分片系统5/无模式    缺点  1/占用空间非常大2/不支持事务3/目前已经不维护32位的系统的了    mongo的基础指令  show dbs 获取你当前所">
+<meta name="twitter:title" content="ES3~ES7数组方法">
+<meta name="twitter:description" content="ES3~ES7数组方法学习 push()  可以接受一个或者多个参数，将参数追加到数组的尾部，返回添加后的数组的长度，原数组会发生改变。  pop()  从数组尾部删除一个元素，返回这个被删除的元素，原数组发生改变。  unshift()  可以接受一个或者多个参数，将参数放到数组的头部，返回添加后的数组的长度，原数组会发生改变。  shift()  从数组头部删除一个元素，返回这个被删除的元素，">
 
 
 
@@ -120,13 +120,13 @@
 
 
 
-  <link rel="canonical" href="https://zyy1104.github.io/2019/07/03/测试文章1/">
+  <link rel="canonical" href="https://zyy1104.github.io/2019/07/30/ES3-ES7数组方法/">
 
 
 
 
 
-  <title>测试文章 | 菜小粥</title>
+  <title>ES3~ES7数组方法 | 菜小粥</title>
   
 
 
@@ -315,7 +315,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://zyy1104.github.iohttps:/zyy1104.github.io/2019/07/03/测试文章1/">
+    <link itemprop="mainEntityOfPage" href="https://zyy1104.github.iohttps:/zyy1104.github.io/2019/07/30/ES3-ES7数组方法/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="菜小粥">
@@ -332,7 +332,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">测试文章</h1>
+          <h1 class="post-title" itemprop="name headline">ES3~ES7数组方法</h1>
         
 
         <div class="post-meta">
@@ -344,8 +344,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-07-03T21:22:20+08:00">
-                2019-07-03
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-07-30T08:36:36+08:00">
+                2019-07-30
               </time>
             
 
@@ -367,8 +367,8 @@
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="https:/zyy1104.github.io/categories/测试/" itemprop="url" rel="index">
-                    <span itemprop="name">测试</span>
+                  <a href="https:/zyy1104.github.io/categories/JavaScript/" itemprop="url" rel="index">
+                    <span itemprop="name">JavaScript</span>
                   </a>
                 </span>
 
@@ -403,7 +403,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  236 字
+                  2k 字
                 </span>
               
 
@@ -419,7 +419,7 @@
                   <span class="post-meta-item-text">阅读时长 &asymp;</span>
                 
                 <span title="阅读时长">
-                  1 分钟
+                  7 分钟
                 </span>
               
             </div>
@@ -440,19 +440,126 @@
       
 
       
-        <p>noSql 翻译过来 not only sql 不仅仅是sql 他就是一个非关系型数据库<br>它的特点:高性能、易部署、易使用，存储数据非常方便。</p>
-<blockquote>
-<p>优点</p>
+        <h2 id="ES3-ES7数组方法学习"><a href="#ES3-ES7数组方法学习" class="headerlink" title="ES3~ES7数组方法学习"></a>ES3~ES7数组方法学习</h2><blockquote>
+<p>push()</p>
 </blockquote>
-<p>1/面向文档储存的数据库（BSON格式存储）<br>2/具有丰富的查询指令<br>3/支持索引<br>4/具有分片系统<br>5/无模式  </p>
+<p>可以接受一个或者多个参数，将参数追加到数组的尾部，返回添加后的数组的长度，原数组会发生改变。</p>
 <blockquote>
-<p>缺点</p>
+<p>pop()</p>
 </blockquote>
-<p>1/占用空间非常大<br>2/不支持事务<br>3/目前已经不维护32位的系统的了  </p>
+<p>从数组尾部删除一个元素，返回这个被删除的元素，原数组发生改变。</p>
 <blockquote>
-<p>mongo的基础指令</p>
+<p>unshift()</p>
 </blockquote>
-<p>show dbs 获取你当前所有的数据库<br>use dataBase_name 创建数据库(没有－创建／存在－使用)<br>db 指查询你当前的数据库<br>db.stats() 查询你当前数据库的状态<br>db.dropDatabase() 删除你当前的数据库<br>db.help() 查询帮助<br>db.version() 获取你当前数据库的版本<br>db.database_name.help() 查询任意数据库的帮助<br>db.collection_name.find() 查询你当前集合内的信息  </p>
+<p>可以接受一个或者多个参数，将参数放到数组的头部，返回添加后的数组的长度，原数组会发生改变。</p>
+<blockquote>
+<p>shift()</p>
+</blockquote>
+<p>从数组头部删除一个元素，返回这个被删除的元素，原数组发生改变。</p>
+<blockquote>
+<p>slice()</p>
+</blockquote>
+<p>截取类 如果不传参数，会返回原数组；如果一个参数，从该参数表示的索引开始截取，直至数组结束，返回这个截取数组，原数组不变；两个参数，从第一个参数对应的索引开始截取，到第二个参数对应的索引结束，但不包括第二个参数对应的索引上值，原数组不改变；最多接受两个参数。</p>
+<blockquote>
+<p>splice()</p>
+</blockquote>
+<p>截取类 没有参数，返回空数组，原数组不变；一个参数，从该参数表示的索引位开始截取，直至数组结束，返回截取的 数组，原数组改变；两个参数，第一个参数表示开始截取的索引位，第二个参数表示截取的长度，返回截取的 数组，原数组改变；三个或者更多参数，第三个及以后的参数表示要从截取位插入的值。</p>
+<blockquote>
+<p>reverse()</p>
+</blockquote>
+<p>不接受参数，数组翻转。</p>
+<blockquote>
+<p>sort()</p>
+</blockquote>
+<p>排序。<br><figure class="highlight actionscript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">arr.sort(<span class="function"><span class="keyword">function</span><span class="params">(a,b)</span></span>&#123;</span><br><span class="line">                <span class="keyword">return</span> a-b; <span class="comment">//从小到大排序</span></span><br><span class="line">                <span class="keyword">return</span> b-a; <span class="comment">//从大到小排序</span></span><br><span class="line">           &#125;);</span><br></pre></td></tr></table></figure></p>
+<blockquote>
+<p>join()</p>
+</blockquote>
+<p>参数来拼接；分隔符。</p>
+<blockquote>
+<p>concat()</p>
+</blockquote>
+<p>将参数放入原数组后返回，原数组本身不变，如果参数是数组，将值提出来。</p>
+<blockquote>
+<p>isArray()</p>
+</blockquote>
+<p>判断是否是数组。</p>
+<blockquote>
+<p>toString()</p>
+</blockquote>
+<p>数组转字符串。</p>
+<hr>
+<h3 id="ES5新增的数组方法"><a href="#ES5新增的数组方法" class="headerlink" title="ES5新增的数组方法"></a>ES5新增的数组方法</h3><h5 id="2个索引方法：indexOf-和-lastIndexOf-；"><a href="#2个索引方法：indexOf-和-lastIndexOf-；" class="headerlink" title="2个索引方法：indexOf() 和 lastIndexOf()；"></a>2个索引方法：indexOf() 和 lastIndexOf()；</h5><blockquote>
+<p>indexOf()</p>
+</blockquote>
+<p>从前往后遍历，返回item在数组中的索引位，如果没有返回-1；通常用来判断数组中有没有某个元素。可以接收两个参数，第一个参数是要查找的项，第二个参数是查找起点位置的索引。</p>
+<blockquote>
+<p>lastIndexOf()</p>
+</blockquote>
+<p>与indexOf一样，区别是从后往前找。</p>
+<h5 id="5个迭代方法：forEach-、map-、filter-、some-、every-；"><a href="#5个迭代方法：forEach-、map-、filter-、some-、every-；" class="headerlink" title="5个迭代方法：forEach()、map()、filter()、some()、every()；"></a>5个迭代方法：forEach()、map()、filter()、some()、every()；</h5><blockquote>
+<p>forEach()</p>
+</blockquote>
+<p>forEach方法与map方法很相似，也是对数组的所有成员依次执行参数函数。但是，forEach方法不返回值，只用来操作数据。这就是说，如果数组遍历的目的是为了得到返回值，那么使用map方法，否则使用forEach方法；forEach的用法与map方法一致，参数是一个函数，该函数同样接受三个参数：当前值、当前位置、整个数组。</p>
+<blockquote>
+<p>map()</p>
+</blockquote>
+<p>将数组的所有成员依次传入参数函数，然后把每一次的执行结果组成一个新数组返回；map方法接受一个函数作为参数。该函数调用时，map方法向它传入三个参数：当前成员、当前位置和数组本身。</p>
+<blockquote>
+<p>filter()</p>
+</blockquote>
+<p>用于过滤数组成员，满足条件的成员组成一个新数组返回；它的参数是一个函数，所有数组成员依次执行该函数，返回结果为true的成员组成一个新数组返回。该方法不会改变原数组；可以接受三个参数：当前成员，当前位置和整个数组。</p>
+<blockquote>
+<p>some()</p>
+</blockquote>
+<p>该方法对数组中的每一项运行给定函数，如果该函数对任何一项返回 true，则返回true。（some方法会在数组中任一项执行函数返回true之后，不在进行循环。）</p>
+<blockquote>
+<p>every()</p>
+</blockquote>
+<p>该方法对数组中的每一项运行给定函数，如果该函数对每一项都返回 true，则返回true。</p>
+<h5 id="2个归并方法：reduce-、reduceRight-；"><a href="#2个归并方法：reduce-、reduceRight-；" class="headerlink" title="2个归并方法：reduce()、reduceRight()；"></a>2个归并方法：reduce()、reduceRight()；</h5><blockquote>
+<p>reduce()</p>
+</blockquote>
+<p>依次处理数组的每个成员，最终累计为一个值。reduce是从左到右处理（从第一个成员到最后一个成员）。参数是一个函数,该函数接受以下两个参数：1累积变量，默认为数组的第一个成员；2当前变量，默认为数组的第二个成员。</p>
+<blockquote>
+<p>reduceRight()<br>从右往左。</p>
+</blockquote>
+<hr>
+<h3 id="ES6新增的数组方法"><a href="#ES6新增的数组方法" class="headerlink" title="ES6新增的数组方法"></a>ES6新增的数组方法</h3><blockquote>
+<p>Array.from()</p>
+</blockquote>
+<p>用于类似数组的对象（即有length属性的对象）和可遍历对象转为真正的数组。<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">let</span> json =&#123; </span><br><span class="line">    <span class="string">'0'</span>:<span class="string">'hello'</span>, </span><br><span class="line">    <span class="string">'1'</span>:<span class="string">'123'</span>, </span><br><span class="line">    <span class="string">'2'</span>:<span class="string">'panda'</span>, </span><br><span class="line">    length:3 </span><br><span class="line">&#125; </span><br><span class="line"><span class="built_in">let</span> arr = Array.from(json); console.log(arr);</span><br><span class="line">//打印：[<span class="string">"hello"</span>, <span class="string">"123"</span>, <span class="string">"panda"</span>]</span><br></pre></td></tr></table></figure></p>
+<blockquote>
+<p>Array.of()</p>
+</blockquote>
+<p>将一组值转变为数组。<br><figure class="highlight coffeescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">let arr1 = Array.<span class="keyword">of</span>(<span class="string">'你好'</span>,<span class="string">'hello'</span>); <span class="built_in">console</span>.log(arr1);<span class="regexp">//</span>[<span class="string">"你好"</span>, <span class="string">"hello"</span>]</span><br></pre></td></tr></table></figure></p>
+<blockquote>
+<p>find()和findIndex()</p>
+</blockquote>
+<p>用于找出第一个符合条件的数组成员。参数是个回调函数，所有数组成员依次执行该回调函数，直到找到第一个返回值为true的成员，然后返回该成员。如果没有符合条件的成员，就返回undefined；可以接收3个参数，依次为当前值、当前位置、原数组。</p>
+<blockquote>
+<p>fill()</p>
+</blockquote>
+<p>使用fill（）方法给定值填充数组。<br>如：<code>new Array(3).fill(7);//[7,7,7]</code><br>可以接收第二个和第三个参数，用于指定填充的起始位置和结束位置（不包括结束位置）。<br><figure class="highlight lsl"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">let arr3 = [<span class="number">0</span>,<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">4</span>,<span class="number">5</span>,<span class="number">6</span>,<span class="number">7</span>]; arr3.fill('error',<span class="number">2</span>,<span class="number">3</span>); </span><br><span class="line">console.log(arr3);</span><br><span class="line"><span class="comment">//[0,1,"error",3,4,5,6,7]</span></span><br></pre></td></tr></table></figure></p>
+<blockquote>
+<p>遍历数组的方法：<br>entries()、values()、keys()</p>
+</blockquote>
+<p>这三个方法都是返回一个遍历器对象，可用for…of循环遍历，唯一区别：keys()是对键名的遍历、values()对键值的遍历、entries()是对键值对的遍历。<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span>(<span class="keyword">let</span> item <span class="keyword">of</span> [<span class="string">'a'</span>,<span class="string">'b'</span>].keys())&#123;</span><br><span class="line">    consloe.log(item);</span><br><span class="line">    <span class="comment">//0</span></span><br><span class="line">    <span class="comment">//1</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">for</span>(<span class="keyword">let</span> item <span class="keyword">of</span> [<span class="string">'a'</span>,<span class="string">'b'</span>].values())&#123;</span><br><span class="line">    consloe.log(item);</span><br><span class="line">    <span class="comment">//'a'</span></span><br><span class="line">    <span class="comment">//'b'</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">let</span> arr4 = [<span class="number">0</span>,<span class="number">1</span>];</span><br><span class="line"><span class="keyword">for</span>(<span class="keyword">let</span> item <span class="keyword">of</span> arr4.entries())&#123;</span><br><span class="line">    <span class="built_in">console</span>.log(item);  </span><br><span class="line">    <span class="comment">//  [0, 0]</span></span><br><span class="line">    <span class="comment">//  [1, 1]</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<p>如果不用for…of进行遍历，可用使用next()方法手动跳到下一个值。<br><figure class="highlight xquery"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> arr5 =[<span class="string">'a'</span>,<span class="string">'b'</span>,<span class="string">'c'</span>]</span><br><span class="line"><span class="keyword">let</span> entries = arr5.entries();</span><br><span class="line">console.log(entries.<span class="keyword">next</span>().<span class="keyword">value</span>);</span><br><span class="line">//[<span class="number">0</span>, <span class="string">"a"</span>]</span><br><span class="line">console.log(entries.<span class="keyword">next</span>().<span class="keyword">value</span>);</span><br><span class="line">//[<span class="number">1</span>, <span class="string">"b"</span>]</span><br><span class="line">console.log(entries.<span class="keyword">next</span>().<span class="keyword">value</span>);</span><br><span class="line">//[<span class="number">2</span>, <span class="string">"c"</span>]</span><br><span class="line">console.log(entries.<span class="keyword">next</span>().<span class="keyword">value</span>);</span><br><span class="line">//undefined</span><br></pre></td></tr></table></figure></p>
+<blockquote>
+<p>copyWithin()</p>
+</blockquote>
+<p>在数组内部，将指定位置的成员复制到其他位置(会覆盖原有成员)，改变原数组。</p>
+<p>该函数有三个参数。target：目的起始位置。start：复制源的起始位置(从0开始)，可以省略，可以是负数。end：复制源的结束位置，可以省略，可以是负数，实际结束位置是end-1。<br><figure class="highlight lsl"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">const arr1 = [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>, <span class="number">5</span>, <span class="number">6</span>, <span class="number">7</span>, <span class="number">8</span>, <span class="number">9</span>, <span class="number">10</span>, <span class="number">11</span>];</span><br><span class="line">arr1.copyWithin(<span class="number">1</span>, <span class="number">3</span>, <span class="number">6</span>);</span><br><span class="line"><span class="comment">//</span></span><br><span class="line">把第<span class="number">3</span>个元素（从<span class="number">0</span>开始）到第<span class="number">5</span>个元素，复制并覆盖到以第<span class="number">1</span>个位置开始的地方。</span><br><span class="line">console.log('%s', JSON.stringify(arr1))</span><br><span class="line"><span class="comment">//</span></span><br><span class="line">[<span class="number">1</span>,<span class="number">4</span>,<span class="number">5</span>,<span class="number">6</span>,<span class="number">5</span>,<span class="number">6</span>,<span class="number">7</span>,<span class="number">8</span>,<span class="number">9</span>,<span class="number">10</span>,<span class="number">11</span>]</span><br></pre></td></tr></table></figure></p>
+<p>start和end都是可以省略。start省略表示从0开始，end省略表示数组的长度值。目标的位置不够的，能覆盖多少就覆盖多少。<br><figure class="highlight lsl"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">const arr2 = [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>, <span class="number">5</span>, <span class="number">6</span>, <span class="number">7</span>, <span class="number">8</span>, <span class="number">9</span>, <span class="number">10</span>, <span class="number">11</span>]</span><br><span class="line">arr2.copyWithin(<span class="number">3</span>)</span><br><span class="line">console.log('%s', JSON.stringify(arr2))</span><br><span class="line"><span class="comment">//[1,2,3,1,2,3,4,5,6,7,8]</span></span><br></pre></td></tr></table></figure></p>
+<p>start和end都可以是负数，负数表示从右边数过来第几个（从-1开始）。start小于end，两者为负数时也是。<br><figure class="highlight lsl"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">const arr3 = [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>, <span class="number">5</span>, <span class="number">6</span>, <span class="number">7</span>, <span class="number">8</span>, <span class="number">9</span>, <span class="number">10</span>, <span class="number">11</span>]</span><br><span class="line">arr3.copyWithin(<span class="number">3</span>, <span class="number">-3</span>, <span class="number">-2</span>)</span><br><span class="line">console.log('%s', JSON.stringify(arr3))</span><br></pre></td></tr></table></figure></p>
+<p>end永远大于end（取值必须是start右边的），end小于start（取start左边的值）时会返回原数组。</p>
+<hr>
+<h3 id="ES7新增的数组方法"><a href="#ES7新增的数组方法" class="headerlink" title="ES7新增的数组方法"></a>ES7新增的数组方法</h3><blockquote>
+<p>incledes()</p>
+</blockquote>
+<p>表示某个数组是否包含给定的值，如果包含则返回 true，否则返回false。可以接收两个参数：要搜索的值和搜索的开始索引。当第二个参数被传入时，该方法会从索引处开始往后搜索（默认索引值为0）。若搜索值在数组中存在则返回true，否则返回false。<br><figure class="highlight gradle"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">[<span class="string">'a'</span>, <span class="string">'b'</span>, <span class="string">'c'</span>, <span class="string">'d'</span>].<span class="keyword">includes</span>(<span class="string">'b'</span>)        </span><br><span class="line"><span class="comment">// true</span></span><br><span class="line">[<span class="string">'a'</span>, <span class="string">'b'</span>, <span class="string">'c'</span>, <span class="string">'d'</span>].<span class="keyword">includes</span>(<span class="string">'b'</span>, <span class="number">1</span>)      </span><br><span class="line"><span class="comment">// true</span></span><br><span class="line">[<span class="string">'a'</span>, <span class="string">'b'</span>, <span class="string">'c'</span>, <span class="string">'d'</span>].<span class="keyword">includes</span>(<span class="string">'b'</span>, <span class="number">2</span>)      </span><br><span class="line"><span class="comment">// false</span></span><br></pre></td></tr></table></figure></p>
+<p>tips：includes与indexOf的区别是：前者返回布尔值（利于if条件判断），后者返回数值。</p>
 
       
     </div>
@@ -499,11 +606,7 @@
       
         <div class="post-tags">
           
-            <a href="https:/zyy1104.github.io/tags/nodejs/" rel="tag"># nodejs</a>
-          
-            <a href="https:/zyy1104.github.io/tags/mongoDB/" rel="tag"># mongoDB</a>
-          
-            <a href="https:/zyy1104.github.io/tags/数据库/" rel="tag"># 数据库</a>
+            <a href="https:/zyy1104.github.io/tags/数组/" rel="tag"># 数组</a>
           
         </div>
       
@@ -516,15 +619,15 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
+              <a href="https:/zyy1104.github.io/2019/07/10/JavaScript数组方法/" rel="next" title="JavaScript数组方法">
+                <i class="fa fa-chevron-left"></i> JavaScript数组方法
+              </a>
+            
           </div>
 
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="https:/zyy1104.github.io/2019/07/10/JavaScript数组方法/" rel="prev" title="JavaScript数组方法">
-                JavaScript数组方法 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -576,8 +679,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -651,6 +763,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#ES3-ES7数组方法学习"><span class="nav-text">ES3~ES7数组方法学习</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#ES5新增的数组方法"><span class="nav-text">ES5新增的数组方法</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#2个索引方法：indexOf-和-lastIndexOf-；"><span class="nav-text">2个索引方法：indexOf() 和 lastIndexOf()；</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#5个迭代方法：forEach-、map-、filter-、some-、every-；"><span class="nav-text">5个迭代方法：forEach()、map()、filter()、some()、every()；</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#2个归并方法：reduce-、reduceRight-；"><span class="nav-text">2个归并方法：reduce()、reduceRight()；</span></a></li></ol></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#ES6新增的数组方法"><span class="nav-text">ES6新增的数组方法</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#ES7新增的数组方法"><span class="nav-text">ES7新增的数组方法</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
